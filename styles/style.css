@@ -1,0 +1,23 @@
+<style>
+#title{color:rgb(0,3,87);}
+h1 {background: yellow;}
+header{background:white; padding-bottom: 20px}
+#text{color: black; font-size:14px}
+#info{font-size: 12px; position: absolute; bottom: 0}
+#mailto{font-size: 12px; position: absolute; bottom: 0; right:0}
+#navi{background: red;}
+section > article {font-size: 14px}
+dd > a:link, a:visited{
+	text-decoration: none;
+	border: 1px solid black;
+	color: black;
+	display: block;
+	width: 200px;
+	margin-bottom: 1px;
+	align-items: center;
+	text-align:center;
+}
+dd > a:hover, a:active{
+	background-color: yellow; color: red;
+}
+</style>
